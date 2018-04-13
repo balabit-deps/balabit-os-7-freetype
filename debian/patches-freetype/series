@@ -1,0 +1,8 @@
+no-uninitialized-bbox.patch
+enable-subpixel-rendering.patch
+enable-gxvalid-otvalid.patch
+verbose-libtool.patch
+freetype-config-multi-arch.patch
+CVE-2018-6942.patch
+0001-truetype-Fix-mmvar-array-pointers.patch
+0001-truetype-Fix-mmvar-array-pointers-part-2.patch
