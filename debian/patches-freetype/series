@@ -6,3 +6,4 @@ freetype-config-multi-arch.patch
 CVE-2018-6942.patch
 0001-truetype-Fix-mmvar-array-pointers.patch
 0001-truetype-Fix-mmvar-array-pointers-part-2.patch
+CVE-2020-15999.patch

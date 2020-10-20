@@ -1,3 +1,14 @@
+freetype (2.8.1-2ubuntu2.1) bionic-security; urgency=medium
+
+  * SECURITY UPDATE: heap buffer overflow via integer truncation in
+    Load_SBit_Png
+    - debian/patches-freetype/CVE-2020-15999.patch: Update
+      src/sfnt/pngshim.c to test and reject invalid bitmap size earlier in
+      Load_SBit_Png. Based on upstream patch.
+    - CVE-2020-15999
+
+ -- Alex Murray <alex.murray@canonical.com>  Tue, 20 Oct 2020 12:49:06 +1030
+
 freetype (2.8.1-2ubuntu2) bionic; urgency=medium
 
   * d/p/0001-truetype-Fix-mmvar-array-pointers.patch,
